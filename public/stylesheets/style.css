@@ -1,0 +1,91 @@
+body {
+  padding: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #cd5a91 !important;
+}
+.container {
+  margin-left: 20px;
+}
+a {
+  color: #00B7FF;
+}
+#navbarSupportedContent li {
+  display: flex;
+}
+
+li.nav-item.active img {
+  margin-top: 10px;
+}
+li.nav-item.active {
+  border-radius: 5px;
+  background-color: #c682a2;
+  padding-left: 8px;
+  margin-right: 15px;
+}
+div.md-form.my-0 input.form-control {
+  background-color: #c682a2;
+  border: none;
+}
+a.navbar-brand.glyphicon.glyphicon-home {
+  border-radius: 5px;
+  background-color: #c682a2;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-right: 15px;
+}
+li.nav-item {
+  border-radius: 5px;
+  background-color: #c682a2;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-right: 15px;
+}
+button.btn.btn-primary.btn-lg.btn-block {
+  background-color: #c682a2;
+  border-color: white;
+}
+#username {
+  margin-top: 7px;
+  color: white;
+  font-variant: small-caps;
+}
+#post-add .input-group {
+  flex-direction: column;
+}
+div.card.post.mb-3.w-100 {
+  margin-bottom: 0px !important;
+}
+textarea#post.form-control {
+  width: 100%;
+}
+div#postArea.row {
+  display: block;
+}
+#postArea {
+    width: 56% !important;
+}
+.posts {
+  display: flex;
+  margin-left: 50px;
+margin-right: 39px;
+}
+.posts .col-md-6 {
+  max-width: 100%;
+  background-color: #dfe1e6;
+      border-radius: 10px;
+}
+.posts div.col-md-6 h1{
+  font-size: 21px;
+margin-left: 0px;
+/* margin-top: 10px; */
+padding-top: 10px;
+/* padding-left: 20px; */
+}
+.input-group-append {
+ margin-left: 0px !important;
+}
+.justify-content-right {
+}
+.menu.row {
+  margin-left: -118px;
+}

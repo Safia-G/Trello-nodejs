@@ -1,0 +1,13 @@
+{% for post in posts %}
+<div class="card post mb-3 w-100" style="width: 18rem;">
+    <div class="card-header">
+        <h5>{{ post.pseudo }}</h5>
+        <span class="text-muted postDate">{{ post.date | date('d/m/Y H:i:s') }}</span>
+    </div>
+    <div class="card-body">
+        <p class="card-text">{{ post.post }}</p>
+        <a href="#" class="card-link">like</a>
+        <a href="#" class="card-link">repost</a>
+    </div>
+</div>
+{% endfor %}

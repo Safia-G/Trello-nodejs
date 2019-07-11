@@ -1,0 +1,20 @@
+{
+  "name": "trello",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon -e js,twig,json -L ./bin/www",
+    "dev": "DEBUG=trello:* npm start"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.16.0",
+    "express-session": "^1.16.2",
+    "http-errors": "~1.6.3",
+    "mongodb": "^3.2.7",
+    "morgan": "~1.9.1",
+    "socket.io": "^2.2.0",
+    "twig": "~0.10.3"
+  }
+}
